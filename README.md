@@ -1,2 +1,1 @@
-# my_website
-For hosting
+# tarunshahi.com
