@@ -1,8 +1,122 @@
 <html>
-<head>
-<title> Welcome tarun </title>
-</head>
-<body>
-<h1> Hi Tarun </h1>
-</body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tarun Shahi</title>
+  		<!-- Angular Material style sheet -->
+  		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  		<link rel="stylesheet" type="text/css" href="./dist/font-awesome/css/font-awesome.css">
+  		<link rel="stylesheet" type="text/css" href="./style.css">
+	</head>
+	<body ng-app="MyWebsite" ng-clock>
+
+		<div class="main-container">
+			<md-content class="section-container" layout="row" layout-xs="column">
+				<div flex-gt-xs="25" flex-xs="100" >
+					<md-card layout="column" flex>
+							<img class="profile_image" src="./images/profile_pics.jpg" alt="Washed Out" width="100%">	
+						<div style="display:block !important;text-align: center;padding: 10px;font-size: 16px;">
+							<b>TARUN KUMAR</b>
+						</div>
+						<md-card-content layout-padding>
+							<strong>Designation</strong>
+							<p class="no_margin">Frontend Devloper</p>
+							<strong>Email</strong>
+							<p class="no_margin">tarunarya1993@gmail.com</p>
+							<strong>Phone No</strong>
+							<p class="no_margin">+91 9581468002</p>
+						</md-card-content>
+						<span flex></span>
+						<md-card-actions>
+							<div layout="row" flex>
+								<a href="https://www.facebook.com/tarun.shahi25" class="linkButton">
+									<i class="fa fa-facebook-square button-icon"></i>
+								</a>
+								<span flex></span>
+								<a href="" class="linkButton">
+									<i class="fa fa-twitter-square button-icon"></i>
+								</a>
+								<span flex></span>
+								<a href="https://www.linkedin.com/in/tarun-shahi-868629a5/" class="linkButton">
+									<i class="fa fa-linkedin-square button-icon"></i>
+								</a>
+								<span flex></span>
+								<a href="https://angel.co/tarun-kumar-13" class="linkButton" style="padding:10px 12px">
+									<i class="fa fa-angellist button-icon"></i>
+								</a>
+							</div>
+						</md-card-actions>
+					</md-card>
+				</div>
+				<div flex-xs="100" flex-gt-xs="75" >
+					<md-card layout="column" flex>
+						<md-card-content layout-padding>
+							<div layout="column">
+								<div class="section-header">
+									<span>Work Experience</span>
+								</div>
+								<div class="section-content">
+									<b>Frontend Devloper/Sourceeasy</b>
+									<p>I am working with an experience of 1 year and 9 months on angular js.</p>
+									<b>Projects</b>
+										<ul>
+											<li>Techpack.io</li>
+											<li>Content Management System</li>
+											<li>Custom Directives</li>
+
+										</ul>
+								</div>
+								<div class="section-header">
+									<span>Skills</span>
+								</div>
+								<div class="section-content">
+									<ul>
+										<li>HTML/CSS</li>
+										<li>Javascript</li>
+										<li>Angular Js</li>
+										<li>React Js</li>
+										<li>Git</li>
+										<li>saas</li>
+										<li>Gulp</li>
+										<li>Bootstrap</li>
+										<li>Angular Material</li>
+
+									</ul>
+								</div>
+								<div class="section-header">
+									<span>Education</span>
+								</div>
+								<div class="section-content">
+									<b>B.Tech / Computer Science & Engineering</b>
+									<div style="padding-left:10px;" layout="column">
+										<span>May 2011 - May 2015</span>
+										<span>Under BPUT</span>
+									</div>
+									<b>Secondary Education / Science Stream</b>
+									<div style="padding-left:10px;" layout="column">
+										<span>March 2008 - March 2010</span>
+										<span>Under BSEB</span>
+									</div>
+									<b>Matriculation / Science</b>
+									<div style="padding-left:10px;" layout="column">
+										<span>March 2007 - March 2008</span>
+										<span>Under BSEB</span>
+									</div>
+								</div>
+							</div>
+						</md-card-content>
+					</md-card>
+				</md-content>
+			</div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+  		<!-- Angular Material Library -->
+  		<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  		<script type="text/javascript">
+  			var myApp = angular.module('MyWebsite', ['ngMaterial']);
+  		</script>
+	</body>
 </html>
